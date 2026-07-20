@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnimeHub — Top 10 Anime, Wallpapers &amp; Games</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="logo-mark">A</span>AnimeHub</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="upcoming.html">Upcoming</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="wallpapers.html">Wallpapers</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero container">
+  <span class="eyebrow">Trending Anime</span>
+  <h1>Anime world to explore &amp; Games</h1>
+  <p>This website includes wallpapers, anime lists, trending games info and also Upcoming releases.</p>
+
+  <div class="search-wrap">
+    <input type="text" id="search-input" placeholder="Search the top 10 by title or genre…" onkeyup="searchAnime()">
+    <button type="button"
+    onclick="searchAnime()"
+    aria-label="Search">🔍
+  </button>
+</div>
+</header>
+
+<section class="section container">
+  <div class="section-head">
+    <div>
+      <h2><span class="num">01</span>Top 10 Anime</h2>
+    </div>
+    <p class="section-sub">Ranked by IMDB.....</p>
+  </div>
+  
+  <div class="grid" id="top-anime-grid">
+    
+    <div class="card">
+      <span class="rank">#1</span>
+      <div class="poster-wrap"><img src="images/posters/image1.jpg" alt="Attack on Titan poster"></div>
+      <div class="info">
+        <h3>Attack on Titan</h3>
+        <div class="meta">
+          <span class="genre">Action / Dark Fantasy</span>
+          <span class="rating">★ 9.1</span>
+        </div>
+        <p class="desc">Humanity lives caged behind massive walls after being nearly wiped out by man-eating Titans. A young soldier's search for answers unravels a much darker truth about the world.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="rank">#2</span>
+      <div class="poster-wrap"><img src="images/posters/images4.jpg" alt="One Piece poster"></div>
+      <div class="info">
+        <h3>One Piece</h3>
+        <div class="meta">
+          <span class="genre">Adventure / Fantasy</span>
+          <span class="rating">★ 9.2</span>
+        </div>
+        <p class="desc">Monkey D. Luffy sails the Grand Line with his crew, chasing the ultimate treasure and the dream of becoming King of the Pirates.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="rank">#3</span>
+      <div class="poster-wrap"><img src="images/posters/images2.jpg" alt="Demon Slayer poster"></div>
+      <div class="info">
+        <h3>Demon Slayer</h3>
+        <div class="meta">
+          <span class="genre">Action / Supernatural</span>
+          <span class="rating">★ 8.9</span>
+        </div>
+        <p class="desc">After his family is slaughtered and his sister turned into a demon, Tanjiro sets out to become a demon slayer and find a cure.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="rank">#4</span>
+      <div class="poster-wrap"><img src="images/posters/images7.jpg" alt="Frieren poster"></div>
+      <div class="info">
+        <h3>The Great Pretender</h3>
+        <div class="meta">
+          <span class="genre">Fantasy / Drama</span>
+          <span class="rating">★ 8.0</span>
+        </div>
+        <p class="desc">A Japanese con artist joins a world-famous swindler, traveling globally to outsmart criminals through elaborate scams while uncovering his past.</p>
+      </div>
+    </div>
+    
+    <div class="card">
+      <span class="rank">#5</span>
+      <div class="poster-wrap"><img src="images/posters/images3.jpg" alt="Jujutsu Kaisen poster"></div>
+      <div class="info">
+        <h3>Jujutsu Kaisen</h3>
+        <div class="meta">
+          <span class="genre">Action / Occult</span>
+          <span class="rating">★ 8.8</span>
+        </div>
+        <p class="desc">A high schooler swallows a cursed talisman to save his friends and joins a secret organization that battles supernatural threats.</p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <span class="rank">#6</span>
+      <div class="poster-wrap"><img src="images/posters/images5.jpg" alt="My Hero Academia poster"></div>
+      <div class="info">
+        <h3>My Hero Academia</h3>
+        <div class="meta">
+          <span class="genre">Action / Superhero</span>
+          <span class="rating">★ 8.4</span>
+        </div>
+        <p class="desc">In a world where nearly everyone has a superpower, a quirkless boy inherits the power of the greatest hero and trains to prove he belongs.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="rank">#7</span>
+      <div class="poster-wrap"><img src="images/posters/images6.jpg" alt="Chainsaw Man poster"></div>
+      <div class="info">
+        <h3>Chainsaw Man</h3>
+        <div class="meta">
+          <span class="genre">Action / Horror</span>
+          <span class="rating">★ 8.7</span>
+        </div>
+        <p class="desc">A young devil hunter merges with his chainsaw devil dog to survive in a brutal, chaotic world run by shadowy organizations.</p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <span class="rank">#8</span>
+      <div class="poster-wrap"><img src="images/posters/anime8.jpg" alt="Solo Leveling poster"></div>
+      <div class="info">
+        <h3>Solo Leveling</h3>
+        <div class="meta">
+          <span class="genre">Action / Fantasy</span>
+          <span class="rating">★ 8.6</span>
+        </div>
+        <p class="desc">The weakest hunter alive is granted a mysterious system that lets him level up without limit, becoming the most powerful hunter alive.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="rank">#9</span>
+      <div class="poster-wrap"><img src="images/posters/images9.jpg" alt="Spy x Family poster"></div>
+      <div class="info">
+        <h3>Spy x Family</h3>
+        <div class="meta">
+          <span class="genre">Comedy / Action</span>
+          <span class="rating">★ 8.5</span>
+        </div>
+        <p class="desc">A spy, an assassin, and a telepath form a fake family to keep the peace between two nations, each hiding their true identity.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="rank">#10</span>
+      <div class="poster-wrap"><img src="images/posters/images10.jpg" alt="Bleach poster"></div>
+      <div class="info">
+        <h3>Bleach: Thousand-Year Blood War</h3>
+        <div class="meta">
+          <span class="genre">Action / Supernatural</span>
+          <span class="rating">★ 9.0</span>
+        </div>
+        <p class="desc">Soul Reaper Ichigo Kurosaki faces the invading Quincy army in the final, most devastating arc of the Bleach saga.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 AnimeHub — built as an internship practice project.</div>
+</footer>
+
+<script src="js/search.js"></script>
+</body>
+</html>

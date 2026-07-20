@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — AnimeHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="logo-mark">A</span>AnimeHub</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="upcoming.html">Upcoming</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="wallpapers.html">Wallpapers</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="section container" style="padding-top:64px;">
+  <div class="about-grid">
+    <div>
+      <span class="eyebrow">About This Project</span>
+      <h1 style="font-size:clamp(1.8rem,4vw,2.6rem);
+       background:var(--grad);
+        -webkit-background-clip:text;
+         background-clip:text;
+          color:transparent;
+           margin-bottom:16px;">
+           Built by a fan, for fans.
+      </h1>
+      <p style="color:var(--muted);
+       font-size:17px;
+        max-width:520px;">
+        
+        AnimeHub is a small internship practice project that brings together a top 10 anime list, a wallpaper
+        download gallery, upcoming releases, and a few favorite games — built with plain HTML and CSS, plus
+        one small bit of JavaScript for the search box on the home page.
+      </p>
+      <div class="stat-row">
+        <div class="stat"><b>10</b><span>Top anime featured</span></div>
+        <div class="stat"><b>14</b><span>Wallpapers to download</span></div>
+        <div class="stat"><b>8</b><span>Games highlighted</span></div>
+      </div>
+    </div>
+    <div class="form-card">
+      <h3 style="margin-bottom:14px;">What's under the hood</h3>
+      <p style="color:var(--muted); font-size:15.5px; 
+      margin-bottom:10px;">
+      Plain HTML and CSS — every page and card is written out directly, nothing generated dynamically.</p>
+      <p style="color:var(--muted); font-size:15.5px;
+       margin-bottom:10px;">
+       One small JavaScript file (<code>search.js</code>) powers just the search box on the home page.</p>
+      <p style="color:var(--muted);
+       font-size:15.5px; margin-bottom:10px;">
+       Wallpaper downloads use a plain HTML <code>download</code> attribute — no script required.</p>
+      <p style="color:var(--muted);
+       font-size:15.5px;">
+       All posters/wallpapers are original placeholder art — swap in your own images anytime.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 AnimeHub — built as an internship practice project.</div>
+</footer>
+
+</body>
+</html>

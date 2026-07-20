@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — AnimeHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="logo-mark">A</span>AnimeHub</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="upcoming.html">Upcoming</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="wallpapers.html">Wallpapers</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero container">
+  <span class="eyebrow">Get In Touch</span>
+  <h1>Contact Us</h1>
+  <p>Questions, suggestions, or a wallpaper request? Send a message below.</p>
+</header>
+
+<section class="section container" style="padding-top:0;">
+  <!-- This form opens the user's email app with the message pre-filled.
+       No JavaScript or backend server needed. -->
+  <form class="form-card" action="mailto:hello@animehub.example" method="post" enctype="text/plain">
+    <div class="field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+    </div>
+    <div class="field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </div>
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <div class="container">© 2026 AnimeHub — built as an internship practice project.</div>
+</footer>
+
+</body>
+</html>
