@@ -165,7 +165,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 
 /* ---------------- Hero ---------------- */
-.main {
+.hero {
   padding: 84px 0 56px;
   text-align: center;
   position: relative;
@@ -182,7 +182,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   margin-bottom: 18px;
 }
 
-.main h1 {
+.hero h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.05;
@@ -193,7 +193,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   margin-bottom: 18px;
 }
 
-.main p {
+.hero p {
   color: var(--muted);
   max-width: 560px;
   margin: 0 auto 34px;
