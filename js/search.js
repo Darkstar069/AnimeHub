@@ -1,3 +1,13 @@
+window.addEventListener("load", function () {
+
+    setTimeout(function () {
+
+        document.getElementById("splash-screen")
+            .classList.add("hide");
+
+    }, 2500);
+
+});
 /* ============================================================
    ANIMEHUB — SEARCH SCRIPT
    ============================================================ */
@@ -20,3 +30,4 @@ function searchAnime() {
     }
   }
 }
+
